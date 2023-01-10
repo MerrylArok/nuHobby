@@ -2,8 +2,19 @@
     box-sizing: border-box;
 }
 
+
+
+.greyedOut {
+    color: grey;
+    padding-left: 0.2rem;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
 nav {
-    height: 70px;
+    height: 3.25rem;
     display: flex;
     align-items: center;
     padding: 0 50px;
@@ -14,3 +25,58 @@ nav {
     height: 25px;
     max-width: 200px;
 }
+
+.hero {
+
+    padding: 2.5rem;
+}
+
+.hero--image {
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.card {
+    width: 175px;
+    font-size: 0.75rem
+}
+
+.card--image {
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card--rating {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 13px;
+}
+
+.card > *{
+    margin:0;
+}
+
+.cardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.cardContainer>*{
+    margin:1rem;
+}
+
