@@ -1,5 +1,4 @@
 import { useState } from "react";
-import dancingPicture from "../assets/dancing--pexels.jpg"
 import starPicture from "../assets/star.png"
 
 export default function Card(props) {
