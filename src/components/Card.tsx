@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { JSXElementConstructor, ReactElement, ReactFragment, ReactPortal, useState } from "react";
 import starPicture from "../assets/star.png"
 
-export default function Card(props) {
-console.log(props)
+export default function Card(props: { img: string | undefined; alt: string | undefined; rating: number | null | undefined; votes: number; title: string | null; members: number; }) {
+
     return (
         <div className="card">
             <img className="card--image" src={props.img} alt={props.alt} />
